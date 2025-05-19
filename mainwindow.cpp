@@ -47,7 +47,7 @@ void MainWindow::setMainwindowStack(){
 void MainWindow::initBackground(){
     // 创建背景控件并覆盖整个窗口
     background = new GifBackgroundWidget(this);
-    background->setGifSource("D://Qt6Project//app//1.gif");
+    background->setGifSource(":/1.gif");
     background->setGeometry(this->rect()); // 初始填充
 
     // 确保背景在最底层
